@@ -13,8 +13,8 @@ StartLimitIntervalSec=14400
 StartLimitBurst=10
 
 ; User and group the process will run as.
-User=www-data
-Group=www-data
+User=caddy
+Group=caddy
 
 ; Letsencrypt-issued certificates will be written to this directory.
 Environment=CADDYPATH=/etc/ssl/caddy
